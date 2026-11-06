@@ -37,12 +37,12 @@ repositories = [
 # EDIT: add YOUR IAM user/role so kubectl works from your laptop.
 #   Find it with:  aws sts get-caller-identity --query Arn --output text
 cluster_admin_arns = [
-  "arn:aws:iam::229378727493:user/terraform-user",
+  "arn:aws:iam::820697996453:user/argocd",
 ]
 
 # ---- GitOps -------------------------------------------------------------------
 # EDIT for your fork: Argo CD deploys gitops/ from this repository + branch.
-gitops_repo_url = "https://github.com/Bharathreddyd3297/JuneAWSAIOpsProj.git"
+gitops_repo_url = "https://github.com/LearnwithSubhakar/AWSAIOPS2.git"
 gitops_revision = "main"
 
 # ---- DNS (optional) -----------------------------------------------------------
