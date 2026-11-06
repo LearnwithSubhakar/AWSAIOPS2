@@ -227,7 +227,7 @@ jobs:
       # controllers inside the cluster, not by Terraform. Remove them while the controllers
       # still run, otherwise they are orphaned and block the VPC deletion / keep costing money.
       - name: Remove Kubernetes-created AWS resources
-        run: ../../scripts/pre-destroy.sh "$(terraform output -raw cluster_name 2>/dev/null || echo telugu-pickles-eks)" "$AWS_REGION"
+        run: bash ../../scripts/pre-destroy.sh "$(terraform output -raw cluster_name 2>/dev/null || echo telugu-pickles-eks)" "$AWS_REGION"
 
       - name: terraform destroy
         run: terraform destroy -auto-approve -lock-timeout=10m
