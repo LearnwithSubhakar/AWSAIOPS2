@@ -31,23 +31,23 @@ generatorOptions:
 # App CI rewrites newName/newTag here after pushing to ECR (.github/workflows/ci.yml, "deploy" job)
 images:
   - name: telugu-pickles/frontend
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/frontend
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/frontend
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/gateway
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/gateway
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/gateway
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/auth-service
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/auth-service
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/auth-service
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/catalog-service
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/catalog-service
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/catalog-service
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/cart-service
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/cart-service
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/cart-service
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/order-service
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/order-service
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/order-service
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
   - name: telugu-pickles/payment-service
-    newName: 229378727493.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/payment-service
-    newTag: "915b3ab4e25673226917f366455b018ec3771b00"
+    newName: 820697996453.dkr.ecr.us-east-1.amazonaws.com/telugu-pickles/payment-service
+    newTag: "f4e8a5e215b41b48d184f1c51913f00c6a89b02f"
