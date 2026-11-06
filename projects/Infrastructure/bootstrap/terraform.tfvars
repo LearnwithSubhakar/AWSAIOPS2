@@ -9,7 +9,7 @@ github_repository_id = "1447752130"
 
 # This AWS account already has the GitHub OIDC provider -> reuse it.
 # New AWS account? set to true.
-create_github_oidc_provider = true
+create_github_oidc_provider = false
 
 # Your GoDaddy domain (e.g. "telugupickles.in"). Leave "" until you are ready.
 domain_name = ""
