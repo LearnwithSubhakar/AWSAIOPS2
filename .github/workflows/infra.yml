@@ -157,7 +157,7 @@ jobs:
           TF_STATE_BUCKET: ${{ vars.TF_STATE_BUCKET }}
         run: |
           # Helm provider needs the chart repos in the local Helm cache ("no cached repo found" otherwise)
-          ../../scripts/helm-repos.sh
+          bash ../../scripts/helm-repos.sh
           bucket="${TF_STATE_BUCKET:-telugu-pickles-tfstate-$(aws sts get-caller-identity --query Account --output text)}"
           terraform init -backend-config="bucket=${bucket}"
 
@@ -219,7 +219,7 @@ jobs:
           TF_STATE_BUCKET: ${{ vars.TF_STATE_BUCKET }}
         run: |
           # Helm provider needs the chart repos in the local Helm cache ("no cached repo found" otherwise)
-          ../../scripts/helm-repos.sh
+          bash ../../scripts/helm-repos.sh
           bucket="${TF_STATE_BUCKET:-telugu-pickles-tfstate-$(aws sts get-caller-identity --query Account --output text)}"
           terraform init -backend-config="bucket=${bucket}"
 
